@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style .css">
+  
+</head>
+<body>
+    <div class="container">
+       <h1>MausamJunction</h1>
+  
+        <input type="text" id="locationInput" placeholder="Enter a city">
+     <!-- <button id="searchButton">Search</button>  -->
+        <div class="weather-info  ">
+            <div class="headingbox">
+            <h2 id="location"> </h2>
+            <p id="countryy"></p>
+        </div>
+            <div id="temperaturebox">
+                <img id="weatherIcon" width="50px" src="./media/iconUi/cloud-solid.svg" alt="">
+                <img id="weatherhumidity" width="50px" src="./media/iconUi/humidity.png" alt="">
+                <img id="weatherClear"  width="50px" src="./media/iconUi/sun.png" alt="">
+                <img id="weatherRain"  width="50px" src="./media/iconUi/drizzle.png" alt="">
+                <img id="Mistt"  width="50px" src="./media/iconUi/drizzle.png" alt="">
+                <p id="weatherCondi"></p>
+                <p id="temperature"> </p>
+ </div>
+               
+                        <div id="windspeed"> 
+                        <p>Wind Speed</p>
+                            <p id="description">N/A</p>
+                        </div>
+           <hr>
+                        <div id="visibility"> 
+                            <p >Humidity</p>
+                                <p id="visibiC">N/A</p>
+                            </div>
+            <hr>
+
+            <div id="visi"> 
+                <p>Visibility</p>
+                    <p id="visibi">N/A</p>
+                </div> 
+                <hr>
+        </div>
+        <p id="footer">developed by Vishu</p>
+    </div>
+    <script src="./java/main.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

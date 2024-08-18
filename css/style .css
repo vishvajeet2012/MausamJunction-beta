@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(../media/macos-mountain-sunset-yosemite-park-scenery-hd-wallpaper-uhdpaper.com-416@0@f.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 87vh;
+
+}
+.headingbox{
+    display:flex; justify-content: center;
+
+}
+#countryy{
+font-size: 12px;
+margin-left: 2px;
+margin-top: 30px;
+font-weight: bolder;
+
+}
+input{
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+    background-color: #f9f9f9;
+}
+input:focus{
+    border-color:wheat;
+    box-shadow: 0 0 8px rgba(0, 168, 234, 0.4);
+    outline: none;
+    background-color: #ffffff;
+
+}
+input:placeholder-shown{
+    color: #aaaaaa;
+ 
+    transition: color 0.3s;
+
+}
+p{
+    margin: 0;
+    font-size:17px;
+}
+.container {
+    backdrop-filter: blur(50px)!important;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 105px;
+}
+
+#temperaturebox{
+    width: 100%;
+
+        justify-content: space-between;
+flex-direction: row;
+    display: flex;
+
+
+}
+
+#windspeed{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+  }
+      
+#footer{
+        font-size: 6px;
+        color: black;
+}
+  #visibility{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0px;
+  }
+  #visi{
+
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0px;
+  }
+@media only screen and (max-width: 700px) {
+    body {
+        font-family: Arial, sans-serif;
+        background: url(../media/macos-mountain-sunset-yosemite-park-scenery-hd-wallpaper-uhdpaper.com-416@0@f.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        min-height: 100vh;
+    
+    }
+    .container {
+        backdrop-filter: blur(50px)!important;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.10);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    }
+    
+  }
+
+
+
+
+ 
